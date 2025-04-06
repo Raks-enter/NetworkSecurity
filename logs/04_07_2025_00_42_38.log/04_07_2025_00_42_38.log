@@ -1,0 +1,6 @@
+[ 2025-04-07 00:42:43,695 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-04-07 00:42:43,789 ] 107 dagshub - INFO - Accessing as Raks-enter
+[ 2025-04-07 00:42:44,268 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Raks-enter/NetworkSecurity "HTTP/1.1 200 OK"
+[ 2025-04-07 00:42:44,616 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-04-07 00:42:44,616 ] 107 dagshub - INFO - Initialized MLflow to track repo "Raks-enter/NetworkSecurity"
+[ 2025-04-07 00:42:44,616 ] 107 dagshub - INFO - Repository Raks-enter/NetworkSecurity initialized!
