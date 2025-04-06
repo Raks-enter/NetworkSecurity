@@ -1,0 +1,26 @@
+[ 2025-04-06 14:12:43,444 ] 19 root - INFO - Initiate the data ingestion
+[ 2025-04-06 14:12:44,915 ] 65 root - INFO - Performed train test split on the dataframe
+[ 2025-04-06 14:12:44,915 ] 67 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2025-04-06 14:12:44,915 ] 75 root - INFO - Exporting train and test file path.
+[ 2025-04-06 14:12:45,009 ] 84 root - INFO - Exported train and test file path.
+[ 2025-04-06 14:12:45,017 ] 24 root - INFO - Initiate the data Validation
+[ 2025-04-06 14:12:45,039 ] 32 root - INFO - Required number of columns:2
+[ 2025-04-06 14:12:45,043 ] 33 root - INFO - Data frame has columns:31
+[ 2025-04-06 14:12:45,043 ] 32 root - INFO - Required number of columns:2
+[ 2025-04-06 14:12:45,043 ] 33 root - INFO - Data frame has columns:31
+[ 2025-04-06 14:12:45,304 ] 26 root - INFO - data Validation Completed
+[ 2025-04-06 14:12:45,304 ] 29 root - INFO - data Transformation started
+[ 2025-04-06 14:12:45,304 ] 63 root - INFO - Entered initiate_data_transformation method of DataTransformation class
+[ 2025-04-06 14:12:45,304 ] 65 root - INFO - Starting data transformation
+[ 2025-04-06 14:12:45,338 ] 48 root - INFO - Entered get_data_transformer_object method of Transformation class
+[ 2025-04-06 14:12:45,338 ] 53 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2025-04-06 14:12:45,361 ] 46 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-04-06 14:12:45,366 ] 50 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-04-06 14:12:45,366 ] 46 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-04-06 14:12:45,370 ] 50 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-04-06 14:12:45,372 ] 33 root - INFO - data Transformation completed
+[ 2025-04-06 14:12:45,372 ] 35 root - INFO - Model Training sstared
+[ 2025-04-06 14:17:08,131 ] 12 networksecurity_logger - ERROR - Error occured in python script name [C:\Users\kollu\OneDrive\Desktop\NetworkSecurity\networksecurity\components\model_trainer.py] line number [178] error message [403: You have reached the limit of 100 experiments for a private repository in the free plan.
+Please upgrade to the Starter plan to increase the limit at https://dagshub.com/pricing?repo_id=52439]
+[ 2025-04-06 14:17:08,132 ] 12 networksecurity_logger - ERROR - Error occured in python script name [C:\Users\kollu\OneDrive\Desktop\NetworkSecurity\main.py] line number [38] error message [Error occured in python script name [C:\Users\kollu\OneDrive\Desktop\NetworkSecurity\networksecurity\components\model_trainer.py] line number [178] error message [403: You have reached the limit of 100 experiments for a private repository in the free plan.
+Please upgrade to the Starter plan to increase the limit at https://dagshub.com/pricing?repo_id=52439]]
