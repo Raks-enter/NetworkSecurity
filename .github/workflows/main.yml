@@ -25,6 +25,11 @@ jobs:
       - name: Run unit tests
         run: echo "Running unit tests"
 
+      - name: Print current directory and files
+        run: |
+            echo "Current Directory: $(pwd)"
+            echo "List of files:"
+            ls -la
   build-and-push-ecr-image:
     name: Continuous Delivery
     needs: integration
@@ -50,6 +55,7 @@ jobs:
 
       - name: Build, tag, and push image to Amazon ECR
         id: build-image
+        working-directory: ${{ github.workspace }}
         env:
           ECR_REGISTRY: ${{steps.login-ecr.outputs.registry}}
           ECR_REPOSITORY: ${{ secrets.ECR_REPOSITORY_NAME }}
