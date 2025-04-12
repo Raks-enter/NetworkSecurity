@@ -1,0 +1,54 @@
+[ 2025-04-11 21:59:24,202 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-04-11 21:59:24,278 ] 107 dagshub - INFO - Accessing as Raks-enter
+[ 2025-04-11 21:59:24,719 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Raks-enter/NetworkSecurity "HTTP/1.1 200 OK"
+[ 2025-04-11 21:59:25,249 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-04-11 21:59:25,252 ] 107 dagshub - INFO - Initialized MLflow to track repo "Raks-enter/NetworkSecurity"
+[ 2025-04-11 21:59:25,254 ] 107 dagshub - INFO - Repository Raks-enter/NetworkSecurity initialized!
+[ 2025-04-11 22:03:30,607 ] 12 networksecurity_logger - ERROR - Error occured in python script name [C:\Users\kollu\OneDrive\Desktop\NetworkSecurity\networksecurity\utils\ml_utils\model\estimator.py] line number [19] error message [The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- cb_person_cred_hist_length
+- cb_person_default_on_file
+- loan_amnt
+- loan_grade
+- loan_int_rate
+- ...
+Feature names seen at fit time, yet now missing:
+- Abnormal_URL
+- DNSRecord
+- Domain_registeration_length
+- Favicon
+- Google_Index
+- ...
+]
+[ 2025-04-11 22:03:30,607 ] 12 networksecurity_logger - ERROR - Error occured in python script name [C:\Users\kollu\OneDrive\Desktop\NetworkSecurity\app.py] line number [72] error message [Error occured in python script name [C:\Users\kollu\OneDrive\Desktop\NetworkSecurity\networksecurity\utils\ml_utils\model\estimator.py] line number [19] error message [The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- cb_person_cred_hist_length
+- cb_person_default_on_file
+- loan_amnt
+- loan_grade
+- loan_int_rate
+- ...
+Feature names seen at fit time, yet now missing:
+- Abnormal_URL
+- DNSRecord
+- Domain_registeration_length
+- Favicon
+- Google_Index
+- ...
+]]
+[ 2025-04-11 22:07:16,361 ] 12 networksecurity_logger - ERROR - Error occured in python script name [C:\Users\kollu\OneDrive\Desktop\NetworkSecurity\networksecurity\utils\ml_utils\model\estimator.py] line number [19] error message [The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- Result
+]
+[ 2025-04-11 22:07:16,361 ] 12 networksecurity_logger - ERROR - Error occured in python script name [C:\Users\kollu\OneDrive\Desktop\NetworkSecurity\app.py] line number [72] error message [Error occured in python script name [C:\Users\kollu\OneDrive\Desktop\NetworkSecurity\networksecurity\utils\ml_utils\model\estimator.py] line number [19] error message [The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- Result
+]]
+[ 2025-04-12 09:58:52,475 ] 12 networksecurity_logger - ERROR - Error occured in python script name [C:\Users\kollu\OneDrive\Desktop\NetworkSecurity\networksecurity\utils\ml_utils\model\estimator.py] line number [19] error message [The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- Result
+]
+[ 2025-04-12 09:58:52,475 ] 12 networksecurity_logger - ERROR - Error occured in python script name [C:\Users\kollu\OneDrive\Desktop\NetworkSecurity\app.py] line number [72] error message [Error occured in python script name [C:\Users\kollu\OneDrive\Desktop\NetworkSecurity\networksecurity\utils\ml_utils\model\estimator.py] line number [19] error message [The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- Result
+]]
