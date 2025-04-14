@@ -27,6 +27,8 @@ import mlflow
 from urllib.parse import urlparse
 
 import dagshub
+
+token = os.getenv('726291a7358aa107b8592d4b324117741742faaf')
 dagshub.init(repo_owner="Raks-enter", repo_name="NetworkSecurity", mlflow=True)
 
 class ModelTrainer:
